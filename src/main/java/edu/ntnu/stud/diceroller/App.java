@@ -9,6 +9,9 @@ import java.io.IOException;
 
 /**
  * The main application class that handles the starting of the javafx application.
+ * @version 0.1
+ * @since 0.1
+ * @author kaamyashinde
  */
 public class App extends Application {
   /**
