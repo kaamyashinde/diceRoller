@@ -1,0 +1,29 @@
+.root{
+    -fx-background-color: #FFF8F3;
+}
+.heading{
+    -fx-font-size: 2em;
+    -fx-font-family: Georgia;
+    -fx-font-weight: bold;
+    -fx-text-fill: #405D72;
+    -fx-alignment: center;
+}
+.rollDiceBtn{
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Apple SD Gothic Neo";
+    -fx-font-weight: bold;
+    -fx-text-fill: #758694;
+    -fx-background-color: #FFF8F3;
+    -fx-border-color: #758694;
+    -fx-border-width: 2px;
+    -fx-background-radius: 5px;
+    -fx-alignment: center;
+}
+.rolledNum{
+    -fx-background-color: #F7E7DC;
+    -fx-font-size: 2em;
+    -fx-font-family: Georgia;
+    -fx-font-weight: bold;
+    -fx-text-fill: #405D72;
+    -fx-alignment: center;
+}

@@ -7,13 +7,14 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" prefHeight="443.0" prefWidth="522.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ntnu.stud.diceroller.Controller">
+<VBox alignment="CENTER" prefHeight="390.0" prefWidth="354.0" spacing="20.0" stylesheets="@../stylesheet/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ntnu.stud.diceroller.Controller">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
    <children>
-      <Button mnemonicParsing="false" onAction="#onRollDiceButtonClicked" text="Roll Dice" />
-      <Label fx:id="diceNumberLabel" prefHeight="32.0" prefWidth="39.0" textAlignment="CENTER" />
+      <Label prefHeight="56.0" prefWidth="483.0" styleClass="heading" text="Dice Roller" textAlignment="CENTER" />
+      <Button mnemonicParsing="false" onAction="#onRollDiceButtonClicked" styleClass="rollDiceBtn" text="Roll Dice" />
+      <Label fx:id="diceNumberLabel" prefHeight="32.0" prefWidth="39.0" styleClass="rolledNum" textAlignment="CENTER" />
       <ImageView fx:id="diceImageView" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/dice.png" />

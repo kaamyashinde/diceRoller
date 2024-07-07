@@ -9,7 +9,7 @@ import java.io.IOException;
 
 /**
  * The main application class that handles the starting of the javafx application.
- * @version 0.2
+ * @version 0.3
  * @since 0.1
  * @author kaamyashinde
  */
@@ -23,7 +23,7 @@ public class App extends Application {
   @Override
   public void start(Stage stage) throws IOException {
     FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("/edu/ntnu/stud/diceroller/fxml/app-view.fxml"));
-    Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+    Scene scene = new Scene(fxmlLoader.load());
     stage.setTitle("Dice Roller");
     stage.setScene(scene);
     stage.show();
