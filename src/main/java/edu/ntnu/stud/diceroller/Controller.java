@@ -10,7 +10,7 @@ import java.util.Objects;
 
 /**
  * This class acts as the controller for the JavaFX application.
- * @version 0.2
+ * @version 0.3
  * @since 0.1
  * @author kaamyashinde
  */
@@ -25,7 +25,7 @@ public class Controller {
 
 
   /**
-   * Call to action method for the button that displays a welcome text.
+   * Call to action method for the roll dice button. It generates a random number and updates the image accordingly.
    */
   @FXML
   protected void onRollDiceButtonClicked() {
@@ -33,7 +33,8 @@ public class Controller {
     dice.rollDice();
     numRolled = dice.getDiceNumber();
     diceNumberLabel.setText(Integer.toString(numRolled));
-      updateDiceImage();
+    diceNumberLabel.setVisible(true);
+    updateDiceImage();
     }
     catch (Exception e){
       System.getLogger(e.getMessage());
