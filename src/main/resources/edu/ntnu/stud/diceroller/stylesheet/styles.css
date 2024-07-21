@@ -27,3 +27,11 @@
     -fx-text-fill: #405D72;
     -fx-alignment: center;
 }
+
+.containerBorder{
+    -fx-border-color: #758694;
+    -fx-border-width: 2px;
+    -fx-background-color: #F7E7DC;
+    -fx-background-radius: 5px;
+    -fx-alignment: center;
+}
